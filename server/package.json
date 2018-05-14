@@ -1,0 +1,21 @@
+{
+  "name": "3ds",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js",
+    "serve": "node server-compiled.js"
+  },
+  "proxy": "http://127.0.0.1:5000",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "co": "^4.6.0",
+    "koa": "^2.5.0",
+    "koa-router": "^7.4.0",
+    "koa-swig": "^2.2.1",
+    "mysql2": "^1.5.3",
+    "nodemon": "^1.17.3",
+    "sequelize": "^4.37.6"
+  }
+}

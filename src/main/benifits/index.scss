@@ -1,0 +1,16 @@
+.home-why{
+    padding: 30px 0 60px;
+    text-align: center;
+    background: #1caad9 url(https://static.sketchfab.com/static/builds/web/dist/triangles-6bab0013b79712f2628cc1034d608ac5.png) left bottom repeat-x;
+    .home-why-benefits {
+	    display: -ms-flexbox;
+	    display: flex;
+	    .home-why-benefit {
+		    box-sizing: border-box;
+		    padding: 0 20px;
+		    -ms-flex: 1;
+		    flex: 1;
+		}
+	}
+    
+}

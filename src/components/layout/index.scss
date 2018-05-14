@@ -1,0 +1,21 @@
+.header{
+	z-index:100;
+	.logo {
+	  width: 120px;
+	  height: 31px;
+	  background-image: url(https://gizmohub.com/static/images/logo-header.69662c87.png);
+	  background-size:cover;
+	  margin: 16px 24px 16px 0;
+	  float: left;
+	}
+	.anonymous{
+	text-align:center;
+					color:#f5f5f5;
+					cursor:pointer;
+
+		span{
+			margin-left:10px;
+		}
+
+	}
+}

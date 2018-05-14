@@ -1,0 +1,11 @@
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.home-section{
+	padding:40px 0;
+	&.home-why-outer{
+		padding-top:0;
+	}
+}
